@@ -1,6 +1,6 @@
 import yt_dlp 
 
-PLAYLIST_URL = 'https://youtube.com/playlist?list=PL-TNsCdgs5WCZnsaWi_liXveQzkVFSlSW&si=2Nchiic0c2QNxhX7'
+PLAYLIST_URL = 'https://youtube.com/playlist?list=PLJIxQEea9fRY50FL5RXVYXW6-KFt5W1pX&si=y1gtxDn2K6PEh13m'
   
 DIR = 'C\\Youtube'
 ydl_opts = {

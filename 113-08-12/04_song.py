@@ -5,11 +5,11 @@ DIR = 'C\\Youtube'
 ydl_opts = {
         'format': 'bestaudio/best',
         'outtmpl':f'{DIR}/%(title)s.%(ext)s',
-        'postprocessors': {  # 音訊轉換
+        'postprocessors': [{  # 音訊轉換
         'key': 'FFmpegExtractAudio',
         'preferredcodec': 'mp3',  # 將音訊轉換為 mp3 格式
         'preferredquality': '192',
-    }
+    }]
  }
 
 try:
